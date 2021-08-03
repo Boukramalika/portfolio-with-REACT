@@ -11,8 +11,10 @@ hr {
     position: relative;
     z-index: 9;
   }
+
+ 
   
-.particles-box {
+  .particles-box {
     position: absolute;
     top: 0;
     left: 0;
