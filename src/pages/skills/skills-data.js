@@ -11,7 +11,7 @@ import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
+import MY_SQL from "../../assets/img/skills/mysql.png";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
@@ -117,10 +117,10 @@ export const skills = {
   databases: [
 
     {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      link: "https://dev.mysql.com/",
+      imgAltText: "MY-SQL",
+      imgSrc: MY_SQL,
+      skillName: "My-SQL",
     },
     {
       link: "https://www.mongodb.com/",
