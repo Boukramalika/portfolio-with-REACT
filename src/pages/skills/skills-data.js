@@ -12,10 +12,12 @@ import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import MY_SQL from "../../assets/img/skills/mysql.png";
+import FIRE_BASE from "../../assets/img/skills/firebase.png";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
+import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+
 
 
 export const skills = {
@@ -79,6 +81,7 @@ export const skills = {
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
     },
+
     {
       link: "https://expressjs.com/",
       imgAltText: "Express",
@@ -89,7 +92,12 @@ export const skills = {
  
   ],
   hostingPlatforms: [
-
+    {
+      link: "https://www.heroku.com/",
+      imgAltText: "Heroku",
+      imgSrc: L_HEROKU,
+      skillName: "Heroku",
+    },
  
     {
       link: "https://pages.github.com/",
@@ -105,12 +113,7 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
+ 
  
 
   ],
@@ -127,6 +130,12 @@ export const skills = {
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: FIRE_BASE,
+      skillName: "Firebase",
     },
   ],
   versionControl: [

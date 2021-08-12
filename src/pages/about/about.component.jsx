@@ -39,7 +39,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href='/../public/CV_Malika_BOUKRA (1).pdf/' target="_blank" rel="noopener noreferrer">
+                    <a href='/../public/cv/CV_Malika_BOUKRA (2).pdf' target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         Mon parcours
                       </Button>
