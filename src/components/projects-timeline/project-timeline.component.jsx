@@ -122,7 +122,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://projet-de-groupe-tmdb.herokuapp.com/"
+                  href="https://boukramalika.github.io/Projet-de-groupe-tmdb/"
                   target="_blank"
                 >
                   VOIR EN LIVE
