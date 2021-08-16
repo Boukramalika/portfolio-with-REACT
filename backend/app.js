@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 
 
-mongoose.connect('mongodb+srv://malika:Ouadhias(1990)@portfolio.jpsy5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://malika:<password>jpsy5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
