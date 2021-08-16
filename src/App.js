@@ -15,10 +15,14 @@ import ContactForm from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particlesOptions";
+import LoginPage from "./pages/LoginPage/LoginPage";
+
 import "./App.css";
 
+
 const App = () => {
-  
+
+
   return (
     <div className="App" style={{ position: "relative" }}>
       <MyNavbar />
@@ -75,6 +79,18 @@ const App = () => {
         </Container>
       </div>
       {/*CONTACT ME*/}
+            {/*inscription */}
+            <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            < LoginPage />
+
+          </Slide>
+        </Container>
+      </div>
+
+     
       <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
