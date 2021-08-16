@@ -1,11 +1,11 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+
 const userRoutes = require('./routes/user')
 const mongoose = require('mongoose');
 const app = express();
 
 
-app.use(bodyParser.json());
+app.use(express.json())
 app.use('/api', userRoutes);
 
 
@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 
 
-mongoose.connect('mongodb+srv://malika:<password>jpsy5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://malika:Ouadhias(1990)@portfolio.jpsy5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
